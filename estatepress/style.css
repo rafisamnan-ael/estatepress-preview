@@ -1,0 +1,20 @@
+/*
+Theme Name: EstatePress
+Theme URI: https://example.com/estatepress
+Author: EstatePress
+Author URI: https://example.com
+Description: A free, lightweight real estate WordPress theme with property listings, advanced search filters, agent contact, WhatsApp integration and a fully responsive design. Built for Bangladesh property businesses.
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.5
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: estatepress
+Tags: real-estate, custom-logo, custom-menu, featured-images, translation-ready, right-sidebar, block-styles
+*/
+
+/*
+All theme styles are loaded from assets/css/main.css
+This file only holds the theme header required by WordPress.
+*/

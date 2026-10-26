@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Properties — Prime Estates</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" />
+<link rel="stylesheet" href="../estatepress/assets/css/main.css" />
+</head>
+<body>
+
+
+<div class="ep-scroll-progress" aria-hidden="true"></div>
+<header class="ep-header">
+	<div class="ep-container ep-header-inner">
+		<div class="ep-brand"><a class="ep-site-title" href="index.html"><span class="ep-logo-mark"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M9.5 21v-6h5v6"/></svg></span> Prime Estates</a></div>
+		<button class="ep-menu-toggle" aria-expanded="false" aria-controls="ep-primary-nav"><span></span><span></span><span></span></button>
+		<nav id="ep-primary-nav" class="ep-nav">
+			<ul class="ep-menu"><li><a href="index.html">Home</a></li><li><a href="listings.html">Properties</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+			<div class="ep-nav-cta"><a class="ep-nav-phone" href="tel:+8801712345678">+880 1712-345678</a></div>
+		</nav>
+	</div>
+</header>
+
+<div class="ep-site-content">
+
+<div class="ep-page-head">
+	<div class="ep-container">
+		<h1 class="ep-page-title">All Properties</h1>
+		<nav class="ep-breadcrumbs"><a href="index.html">Home</a> <span>/</span> <span>Properties</span></nav>
+	</div>
+</div>
+
+<div class="ep-container ep-archive-layout">
+	<aside class="ep-filters">
+		<form class="ep-filter-form" data-demo-filter onsubmit="return false">
+			<h2 class="ep-filter-title">Filter Properties</h2>
+			<label class="ep-field"><span class="ep-field-label">Keyword</span><input type="text" name="s" placeholder="Title or area…" /></label>
+			<label class="ep-field"><span class="ep-field-label">Status</span><select name="status"><option value="">Any</option><option>For Sale</option><option>For Rent</option></select></label>
+			<label class="ep-field"><span class="ep-field-label">Property Type</span><select name="type"><option value="">Any</option><option>Apartment</option><option>House</option><option>Duplex</option><option>Office Space</option><option>Land / Plot</option></select></label>
+			<label class="ep-field"><span class="ep-field-label">Location</span><select name="location"><option value="">Any</option><option>Gulshan</option><option>Dhanmondi</option><option>Banani</option><option>Uttara</option><option>Mirpur</option><option>Bashundhara R/A</option><option>Chattogram</option><option>Sylhet</option></select></label>
+			<div class="ep-field-row">
+				<label class="ep-field"><span class="ep-field-label">Min Price</span><input type="number" name="min" placeholder="0" /></label>
+				<label class="ep-field"><span class="ep-field-label">Max Price</span><input type="number" name="max" placeholder="Any" /></label>
+			</div>
+			<label class="ep-field"><span class="ep-field-label">Min Bedrooms</span><select name="beds"><option value="">Any</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+			<button type="submit" class="ep-btn ep-btn-primary ep-btn-block">Apply Filters</button>
+			<a class="ep-reset" href="listings.html" data-demo-reset>Reset</a>
+		</form>
+	</aside>
+
+	<main class="ep-archive-main">
+		<div class="ep-archive-bar"><p class="ep-result-count" data-demo-count>10 properties found</p></div>
+		<div class="ep-grid ep-grid-3" data-demo-cards>
+
+			<article class="ep-card" data-status="For Sale" data-type="Apartment" data-location="Gulshan" data-beds="4" data-price="42000000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-1.svg" alt="" /><span class="ep-badge">For Sale</span><span class="ep-card-price">৳42,000,000<small>BDT</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Apartment</span><h3 class="ep-card-title"><a href="property.html">Luxury 4 Bedroom Apartment in Gulshan 2</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Dhaka, Gulshan</p><ul class="ep-card-meta"><li>Beds <strong>4</strong></li><li>Baths <strong>4</strong></li><li><strong>3200</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Sale" data-type="Apartment" data-location="Dhanmondi" data-beds="3" data-price="18500000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-2.svg" alt="" /><span class="ep-badge">For Sale</span><span class="ep-card-price">৳18,500,000<small>BDT</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Apartment</span><h3 class="ep-card-title"><a href="property.html">Modern 3 Bedroom Apartment in Dhanmondi 27</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Dhaka, Dhanmondi</p><ul class="ep-card-meta"><li>Beds <strong>3</strong></li><li>Baths <strong>3</strong></li><li><strong>1650</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Sale" data-type="Duplex" data-location="Banani" data-beds="5" data-price="75000000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-3.svg" alt="" /><span class="ep-badge">For Sale</span><span class="ep-card-price">৳75,000,000<small>BDT</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Duplex</span><h3 class="ep-card-title"><a href="property.html">Elegant 5 Bedroom Duplex in Banani</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Dhaka, Banani</p><ul class="ep-card-meta"><li>Beds <strong>5</strong></li><li>Baths <strong>6</strong></li><li><strong>5400</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Rent" data-type="Apartment" data-location="Uttara" data-beds="3" data-price="45000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-4.svg" alt="" /><span class="ep-badge">For Rent</span><span class="ep-card-price">৳45,000<small>/month</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Apartment</span><h3 class="ep-card-title"><a href="property.html">Spacious 3 Bedroom Flat in Uttara Sector 7</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Dhaka, Uttara</p><ul class="ep-card-meta"><li>Beds <strong>3</strong></li><li>Baths <strong>3</strong></li><li><strong>1500</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Rent" data-type="Apartment" data-location="Mirpur" data-beds="2" data-price="22000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-5.svg" alt="" /><span class="ep-badge">For Rent</span><span class="ep-card-price">৳22,000<small>/month</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Apartment</span><h3 class="ep-card-title"><a href="property.html">Affordable 2 Bedroom Apartment in Mirpur 10</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Dhaka, Mirpur</p><ul class="ep-card-meta"><li>Beds <strong>2</strong></li><li>Baths <strong>2</strong></li><li><strong>950</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Rent" data-type="Office Space" data-location="Bashundhara R/A" data-beds="0" data-price="180000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-6.svg" alt="" /><span class="ep-badge">For Rent</span><span class="ep-card-price">৳180,000<small>/month</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Office Space</span><h3 class="ep-card-title"><a href="property.html">Premium Office Space in Bashundhara R/A</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Dhaka, Bashundhara R/A</p><ul class="ep-card-meta"><li>Baths <strong>2</strong></li><li>Parking <strong>4</strong></li><li><strong>2800</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Sale" data-type="Land / Plot" data-location="Bashundhara R/A" data-beds="0" data-price="30000000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-7.svg" alt="" /><span class="ep-badge">For Sale</span><span class="ep-card-price">৳30,000,000<small>BDT</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Land / Plot</span><h3 class="ep-card-title"><a href="property.html">Commercial Plot in Purbachal New Town</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Dhaka, Purbachal</p><ul class="ep-card-meta"><li><strong>7200</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Sale" data-type="Apartment" data-location="Chattogram" data-beds="3" data-price="15800000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-8.svg" alt="" /><span class="ep-badge">For Sale</span><span class="ep-card-price">৳15,800,000<small>BDT</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Apartment</span><h3 class="ep-card-title"><a href="property.html">Sea-View 3 Bedroom Apartment in Chattogram</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Chattogram, Patenga</p><ul class="ep-card-meta"><li>Beds <strong>3</strong></li><li>Baths <strong>3</strong></li><li><strong>1750</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Sale" data-type="House" data-location="Sylhet" data-beds="4" data-price="26500000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-9.svg" alt="" /><span class="ep-badge">For Sale</span><span class="ep-card-price">৳26,500,000<small>BDT</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">House</span><h3 class="ep-card-title"><a href="property.html">Furnished 4 Bedroom House in Sylhet City</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Sylhet, Uposhohor</p><ul class="ep-card-meta"><li>Beds <strong>4</strong></li><li>Baths <strong>4</strong></li><li><strong>3600</strong> sqft</li></ul></div>
+			</article>
+
+			<article class="ep-card" data-status="For Rent" data-type="Apartment" data-location="Banani" data-beds="1" data-price="75000">
+				<a class="ep-card-media" href="property.html"><img src="../estatepress/assets/images/demo/prop-10.svg" alt="" /><span class="ep-badge">For Rent</span><span class="ep-card-price">৳75,000<small>/month</small></span></a>
+				<div class="ep-card-body"><span class="ep-card-type">Apartment</span><h3 class="ep-card-title"><a href="property.html">Serviced 1 Bedroom Apartment in Banani</a></h3><p class="ep-card-location"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 1 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Dhaka, Banani</p><ul class="ep-card-meta"><li>Beds <strong>1</strong></li><li>Baths <strong>1</strong></li><li><strong>780</strong> sqft</li></ul></div>
+			</article>
+
+		</div>
+	</main>
+</div>
+
+</div>
+
+<footer class="ep-footer">
+	<div class="ep-container ep-footer-widgets">
+		<div class="ep-footer-col"><h3 class="widget-title">Prime Estates</h3><p>Trusted real estate across Bangladesh.</p></div>
+		<div class="ep-footer-col"><h3 class="widget-title">Contact</h3><ul class="ep-footer-contact"><li>Phone: <a href="tel:+8801712345678">+880 1712-345678</a></li><li>Email: <a href="mailto:info@primeestates.com.bd">info@primeestates.com.bd</a></li><li>House 12, Road 5, Dhanmondi, Dhaka</li></ul></div>
+		<div class="ep-footer-col"><h3 class="widget-title">Follow Us</h3><ul class="ep-social"><li><a href="#">Facebook</a></li><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li></ul></div>
+	</div>
+	<div class="ep-footer-bottom"><div class="ep-container"><p>© 2026 Prime Estates. All rights reserved.</p><ul class="ep-footer-menu"><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li></ul></div></div>
+</footer>
+
+<a class="ep-whatsapp-float" href="https://wa.me/8801712345678" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.1-.2 0-.4.1-.5l.5-.6c.1-.2.1-.3 0-.5l-.8-1.9c-.1-.3-.3-.3-.5-.3h-.5c-.2 0-.5.1-.7.4-.2.3-.8 1-.8 2.3s.9 2.6 1 2.8c.1.2 1.8 2.9 4.4 4 .6.3 1.1.4 1.5.5.6.1 1.2.1 1.6 0 .5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg></a>
+<button type="button" class="ep-backtop" aria-label="Back to top"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 15 6-6 6 6"/></svg></button>
+
+<nav class="ep-dotnav" aria-label="Page sections"></nav>
+<script src="../estatepress/assets/js/main.js"></script>
+<script src="../estatepress/assets/js/interactions.js"></script>
+</body>
+</html>
